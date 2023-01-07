@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+/* header styles */
+.header{
+  background-image: url("./new-year-new-me/images/banner/banner1.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  
+  }
+   .banner{
+    display: flex;
+  }
+ 
+.banner-description{
+ padding-top: 15%;
+ padding-left: 60%;
+ padding-right: 10%;
+ justify-content: left;
+ text-align: right;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 40px;
+}
+.btn-primary{
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+}
+
+/* section  styles*/
+.section{
+  display: flex;
+  margin-top: 60px;
+  gap: 24px;
+}
+.image{
+  margin-left: 80px;
+}
+.sub-title{
+  padding-top: 10%;
+  justify-content: left;
+  margin: 50px;
+
+}
+.section-title{
+  font-weight: 600;
+  font-size: 60px;
+  padding: 30px;
+  
+}
+.section-description{
+  padding: 15px; 
+ }
+.list{
+  padding: 15px;
+  list-style: none;
+ }
+ /* my plane */
+ .plane-heading{
+  text-align: center;
+  margin: 30px;
+  font-weight: 700;
+  font-size: 50px;
+ }
+ .my-plane{
+   margin: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 230px;
+  gap: 100px;
+ 
+}
+.items{
+  text-align: center;
+}
+ 
+.always{
+  height: 300px;
+  background-image: url("./new-year-new-me/images/watch.png"), url("./new-year-new-me/images/gradient2.png");
+  background-repeat: no-repeat;
+  margin: 30px;
+  margin-left: 120px;
+ }
+ .h1{
+  font-weight: 600;
+  font-size: 50px;
+  color: #ffff;
+  padding: 20px;
+ }
+ .btn{
+  background-color: wheat;
+  padding: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  width: 150px;
+  font-size: 20px;
+ }
+
+/* footer menu */
+.footer{
+  display: flex;
+  background-color: black;
+
+}
+.footer-head{
+  margin: 30px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 20%;
+}
+.footer-heading{
+  color: bisque;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 5%;
+
+}
+.para{
+  font-weight: 400;
+  color: aliceblue;
+  padding-right: 50%;
+}
+ .footer-contact{
+  color: blanchedalmond;
+  display: block;
+  padding-top: 5%;
+  justify-content: flex-end;
+
+}
+.footer-image img{
+  margin-top: 20px;
+  padding: 5px;
+}
+.subscribes-heading{
+  font-weight: 600;
+  font-size: 30px;
+  color: yellowgreen;
+  margin: 30px;
+  margin-top: 30%;
+}
+.email{
+  margin: 30px;
+  padding: 10px;
+  background-color: black;
+  color: blanchedalmond;
+  width: 200px;
+  border-radius: 5px;
+}
+.btn-2{
+   margin-left: 30px;
+  padding: 10px;
+  background-color:blanchedalmond;
+  color: b;
+  width: 100px;
+  border-radius: 5px;
+}
